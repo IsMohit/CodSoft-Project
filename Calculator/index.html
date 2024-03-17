@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="cal_container">
+        <div class="struct">
+            <h2 style="text-align:center; color:white">Calcii 101M</h2>
+            <table>
+
+                <tr>    
+                    <td colspan="4" id="disp"><input type="text" class="cal_disp" id="screen" disabled></td>
+                </tr>
+
+                
+                <tr>
+                    <td><button class="btn" onclick="All_Clr()" value="AC" id="ac">AC</button></td>
+                     <td><button class="btn" onclick="DEL()" value="DEL" id="del">DEL</button></td>
+                     <td><button class="btn" onclick="get_val('%')" value="%">%</button></td>
+                     <td><button class="btn" onclick="get_val('/')" value="/">/</button></td>
+                </tr>
+                
+                <tr>
+                    <td><button class="btn" onclick="get_val('7')" value="7">7</button></td>
+                    <td><button class="btn"onclick="get_val('8')" value="8">8</button></td>
+                    <td><button class="btn" onclick="get_val('9')" value="9">9</button></td>
+                    <td><button class="btn" onclick="get_val('*')" value="*">x</button></td>
+                </tr>
+                
+                <tr>
+                    <td><button class="btn" onclick="get_val('4')" value="4">4</button></td>
+                    <td><button class="btn" onclick="get_val('5')" value="5">5</button></td>
+                    <td><button class="btn" onclick="get_val('6')" value="6">6</button></td>
+                    <td><button class="btn" onclick="get_val('-')" value="-">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="btn" onclick="get_val('1')" value="1">1</button></td>
+                    <td><button class="btn" onclick="get_val('2')" value="2">2</button></td>
+                    <td><button class="btn" onclick="get_val('3')" value="3">3</button></td>
+                    <td><button class="btn" onclick="get_val('+')" value="+">+</button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><button id="zero" onclick="get_val('0')" value="0">0</button></td>
+                    <td><button class="btn" onclick="get_val('.')" value="."><b>.</b></button></td>
+                    <td><button class="btn" onclick="Ans_Is()" value="=" id="equto">=</button></td>
+                </tr>
+                
+                </table>
+        </div>
+    </div>
+    
+</body>
+</html>
