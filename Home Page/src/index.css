@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+nav{
+  font-size: 1.2rem;
+  font-family: 'Comfortaa', cursive;
+}
+.nav-link{
+  border-radius: 50px;
+}
+
+.nav-link:hover{
+  transform: scale(1.05);
+  background-color: rgb(168, 223, 255);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.542);
+}
+
+.Main-container{
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  /* height: 100vh;
+  width: 100vw; */
+  overflow-x: hidden;
+}
+
+#row-1{
+  margin-top:5rem;
+  background-color: rgba(0, 0, 0, 0.206);
+}
+
+.tag-line{
+  font-family: 'Sulphur Point', sans-serif;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.card{
+  padding: 1rem .5rem;
+  margin-top: 5rem;
+}
+
+#mimg{
+  width: 8.2rem;
+  height: 10.4rem;
+}
+
+#mimg:hover{
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+.btn:hover{
+  cursor: pointer;
+  transform: scale(1.10);
+  background-color: green;
+}
+
+#lap-img:hover{
+  cursor: pointer;
+  transform: scale(1.10);
+}
+
+.credits{
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
+
+
