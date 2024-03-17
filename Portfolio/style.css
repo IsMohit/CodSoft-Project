@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    color: white;
+}
+
+
+#name_intro{
+    font-family: 'Sulphur Point', sans-serif;
+    margin-top: 14rem;
+    font-size: 3.5rem;
+}
+
+
+.animation {
+    height:100px;
+    overflow:hidden;
+    margin-top: 2rem;
+}
+
+.animation > div > div {
+    padding: 0.1rem 0.75rem;
+    height:4rem;
+    margin-bottom: 2.5rem;
+    display:inline-block;
+    border-radius: 50px;
+}
+
+.animation div:first-child {
+    animation: text-animation 10s infinite;
+}
+
+.first div {
+    background-color:#20a7d8;
+    box-shadow: .1em .1em 0 rgb(26, 26, 26);
+}
+.second div {
+    background-color:#ffc124;
+    box-shadow: .1em .1em 0 rgb(26, 26, 26);
+}
+.third div {
+    background-color:#c10528;
+    box-shadow: .1em .1em 0 rgb(26, 26, 26);
+}
+
+@keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+}
+
+.img-fluid{
+    margin-top: 8rem;
+    width: 400px;
+}
+
+.row{
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+}
+
+#my_resume{
+    font-size: 1.5rem;
+    border-radius: 25px;
+    border: none;
+    margin-top: 2rem;
+    background-color: #20a7d8;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+#my_resume:hover{
+    background-color: #20d826;
+    transform: scale(1.05);
+}
+
+.face{
+    margin-bottom: 15rem;
+    min-height: 100%;
+}
+
+.tech_title{
+    font-family: 'Sulphur Point', sans-serif;
+    margin-bottom: 8rem;
+    font-size: 3rem;
+}
+
+.card{
+    opacity: 80%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    padding: .5rem .5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.472);
+    transform: skewY(10deg);
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    opacity: 100%;
+    border-radius: 0px;
+}
+
+.card-img-top{
+    border-radius: 50%;
+    width: 16rem;
+}
+
+.tech_info{
+    height: 15rem;
+    margin-top: 5rem ;
+    border-radius: 10px;
+    font-size: 1.5rem; 
+}
+
+
+
+#tech_info{
+    border-radius: 25px;
+}
+
+
+.face-2{
+    margin-bottom: 4rem;
+    min-height: 100%;
+}
+
+.d-block{
+    height: 40rem;
+}
+
+#row-5{
+    margin-top: 15rem ;
+}
+
+li:hover{
+    transform: scale(1.02);
+    background-color: #a8e5fb;
+}
+
+a{
+    font-weight: bold;
+    color:black;
+}
